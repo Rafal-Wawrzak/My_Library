@@ -32,7 +32,7 @@ from sklearn.linear_model import LinearRegression
 
 ##dataFrameValueCounts
 """
-def helpList():
+def LibraryHelp():
     print('Help is WIP')
 
 def dataFrameValueCounts(dataFrame):
