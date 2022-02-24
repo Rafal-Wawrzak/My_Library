@@ -1,6 +1,8 @@
 
 # -*- coding: utf-8 -*-
-
+'''
+This may be editied so please be adviesed of that.
+'''
 #pandas
 import pandas as pd
 
@@ -21,7 +23,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.linear_model import LinearRegression
 
 def LibraryHelp(function   = None):
-    if Function:
+    if function:
         print('Help is WIP')
     else:
         print('Test is still WIP')
