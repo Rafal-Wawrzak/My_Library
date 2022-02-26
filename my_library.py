@@ -22,8 +22,14 @@ from sklearn.preprocessing import StandardScaler
 
 from sklearn.linear_model import LinearRegression
 
-def LibraryHelp(function   = None):
-    if function:
+def LibraryHelp(function   =  None):
+    if function != None:
+        if function.tolower() == 'dataframevaluecounts':
+            print('''
+            This functions prints out the value counts of each 
+            column in a DataFrame
+            ''')
+        else:
         print('Help is WIP')
     else:
         print('''
