@@ -70,7 +70,7 @@ def grouopByDataFrame(dataFrame, printOut = True):
     '''
     
     for i in dataFrame:
-        groupByCount(df, i, printOut)
+        groupByCount(dataFrame, i, printOut)
 
 def groupByCount(dataFrame, columnName =None , printOut = True):
     '''
