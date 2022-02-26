@@ -30,7 +30,7 @@ def LibraryHelp(function   =  None):
             column in a DataFrame
             ''')
         else:
-        print('Help is WIP')
+            print('Help is WIP')
     else:
         print('''
         dataFrameValueCounts(dataFrame)
