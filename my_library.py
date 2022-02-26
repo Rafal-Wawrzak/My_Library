@@ -26,8 +26,8 @@ def LibraryHelp(function   =  None):
     if function != None:
         if function.lower() == 'dataframevaluecounts':
             print('''
-            This functions prints out the value counts of each 
-            column in a DataFrame
+This functions prints out the value counts of each 
+column in a DataFrame
             ''')
         else:
             print('Help is WIP')
