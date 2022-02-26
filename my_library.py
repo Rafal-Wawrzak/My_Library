@@ -24,7 +24,7 @@ from sklearn.linear_model import LinearRegression
 
 def LibraryHelp(function   =  None):
     if function != None:
-        if function.tolower() == 'dataframevaluecounts':
+        if function.lower() == 'dataframevaluecounts':
             print('''
             This functions prints out the value counts of each 
             column in a DataFrame
