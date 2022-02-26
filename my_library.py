@@ -1,7 +1,8 @@
 
 # -*- coding: utf-8 -*-
 '''
-This may be editied so please be adviesed of that.
+This may be editied so please be adviesed of that. if you are relying on these to do something, then it stops working
+don't be surprised 
 '''
 #pandas
 import pandas as pd
@@ -11,16 +12,6 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import numpy as np
 
-#Meching Learning Items
-from sklearn.model_selection import train_test_split
-
-from sklearn.pipeline import make_pipeline
-from sklearn.compose import make_column_selector, make_column_transformer
-from sklearn.impute import SimpleImputer
-from sklearn.preprocessing import OneHotEncoder
-from sklearn.preprocessing import StandardScaler
-
-from sklearn.linear_model import LinearRegression
 
 def LibraryHelp(function   =  None):
     if function != None:
