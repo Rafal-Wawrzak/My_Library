@@ -26,7 +26,21 @@ def LibraryHelp(function   = None):
     if function:
         print('Help is WIP')
     else:
-        print('Test is still WIP')
+        print('''
+        dataFrameValueCounts(dataFrame)
+        pams(getMe)
+        startUpDatacleaning(dataFrame)
+            printNull(dataFrame)
+            grouopByDataFrame(dataFrame, printOut = True)
+                groupByCount(dataFrame, columnName =None , printOut = True)
+            minMaxMeanDF(dataFrame)
+            sumColumn(dataFrame, columnName)
+            evalute(y_true, y_pred, class_report=True, matrix=True, color ='Reds')
+            barGroupCount(dataFrame, mainColumn, secoundColumn= None,plot = 'bar',
+                          titleFontSize = 25, tickSize = 10, labelSize = 25,
+                          figureSize = (12, 5),y_rot = 0,  x_rot = 0,gridAxis = 'y')
+            plotGridData(group,Column, Z = (3,4), title_Text = '', size=(20, 10))
+        ''')
 
 def dataFrameValueCounts(dataFrame):
     for i in dataFrame:
